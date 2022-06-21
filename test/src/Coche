@@ -1,20 +1,10 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        int result;
-        result = suma(1, 2, 3);
-        System.out.println(result);
         Coche miCoche = new Coche();
         miCoche.añadirPuerta();
         System.out.println(miCoche.puertas);
 
     }
-
-    public static int suma(int a, int b, int c) {
-        int resultado;
-        resultado = a + b + c;
-        return resultado;
-    }
-
 }
 
 class Coche {
